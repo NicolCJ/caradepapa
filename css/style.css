@@ -1,0 +1,93 @@
+html {
+    background-color: aqua;
+}
+#container {
+    position: absolute;
+    width: 1000px;
+    height: 50%;
+    text-align: center;
+    margin: 100px auto;
+    position: relative;   
+    z-index: 0;
+}
+.face {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 156px;
+    z-index: 997;
+}
+
+.hat{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 60px;
+    z-index: 999;
+}
+.nose{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 275px;
+    z-index: 999;
+}
+.ear-left{
+    position: absolute;
+    left: 0;
+    right: 277px;
+    margin: 0 auto;
+    top: 182px;
+    z-index: 996;
+}
+.ear-right{
+    position: absolute;
+    left: 277px;
+    right: 0;
+    margin: 0 auto;
+    top: 182px;
+    z-index: 996;
+}
+.eye-left{
+    position: absolute;
+    left: 412px;
+    right: 790px;
+    top: 211px;
+    z-index: 999;
+}
+.eye-right{
+    position: absolute;
+    left: 496px;
+    right: 0px;
+    top: 211px;
+    z-index: 999;
+}
+.moustache{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 400px;
+    z-index: 998;
+}
+
+.foot-left{
+    position: absolute;
+    left: 160px;
+    right: 0;
+    margin: 0 auto;
+    top: 500px;
+    z-index: 996;
+}
+
+.foot-right{
+    position: absolute;
+    left: 0;
+    right: 160px;
+    margin: 0 auto;
+    top: 500px;
+    z-index: 996;
+}
